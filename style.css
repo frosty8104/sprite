@@ -1,0 +1,18 @@
+#canvas1 {
+    height: 600px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+}
+.controls {
+    left: 50%;
+    position: absolute;
+    top: 50px;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+.controls, select, option {
+    font-size: 25px;
+}
